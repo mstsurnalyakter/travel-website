@@ -1,0 +1,17 @@
+/* Mulish front from google fronts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+/* Common Style here */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+}
