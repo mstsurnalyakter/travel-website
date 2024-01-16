@@ -6,7 +6,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* list-style: none; */
   text-decoration: none;
   border: none;
   outline: none;
@@ -40,6 +39,12 @@ p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
+}
+
+.text-section {
+  max-width: 643px;
+  text-align: center;
+  margin-bottom: 48px;
 }
 
 .primary-btn {
@@ -180,11 +185,6 @@ p {
   justify-content: center;
 }
 
-.destination-text {
-  max-width: 643px;
-  text-align: center;
-  margin-bottom: 48px;
-}
 
 .destination-content {
   display: grid;
@@ -366,11 +366,6 @@ p {
   justify-content: center;
 }
 
-.choose-us-text {
-  max-width: 643px;
-  text-align: center;
-  margin-bottom: 48px;
-}
 
 .choose-us-content {
   display: flex;
@@ -387,19 +382,19 @@ p {
   padding: 32px;
 }
 
-.card1{
- border: 1px solid rgba(251, 181, 99, 0.2);
+.card1 {
+  border: 1px solid rgba(251, 181, 99, 0.2);
   background: rgba(251, 181, 99, 0.05);
 }
 
-.card2{
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
+.card2 {
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
 }
 
-.card3{
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
+.card3 {
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
 }
 
 .card p {
@@ -416,4 +411,98 @@ background: rgba(233, 68, 68, 0.05);
 .card img {
   width: 64px;
   padding-bottom: 32px;
+}
+
+/* Deals & Discounts section */
+
+.deals-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.deals-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.deals-card {
+  width: 1170px;
+  height: 500px;
+  border-radius: 16px;
+  background: url("../images/santorini.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#deals-card1,
+#deals-card3 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 58px;
+}
+
+#deals-card2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 58px;
+}
+
+.deals-card > .card {
+  max-width: 579px;
+  height: 389px;
+  border-radius: 16px;
+  border: 2px solid #fff;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2.5px);
+
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  padding: 52px 77px 50px 50px;
+}
+
+.time-place {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.deals-card .card .time-place p > img {
+  width: 20px;
+}
+
+.time-place > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.time-place p > span {
+  position: relative;
+  bottom: 15px;
+}
+
+.card-text {
+  /* max-width: 452px; */
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-text .price {
+  color: #ff5400;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.deals-card .card > button {
+  padding: 14px 0;
 }
