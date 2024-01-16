@@ -1,5 +1,5 @@
 /* Mulish and Inter fronts from google fronts */
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;500;600;700;800;900&display=swap");
 
 /* Common Style here */
 * {
@@ -609,19 +609,17 @@ select {
   background: rgba(255, 255, 255, 0.3);
 }
 
-
-
 .left > span {
-  color:#f3f3f3;
-  font-family: 'Inter', sans-serif;
+  color: #f3f3f3;
+  font-family: "Inter", sans-serif;
   font-size: 14px;
   position: relative;
   bottom: 5px;
 }
-.right{
+.right {
   display: flex;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   gap: 10px;
 }
 
@@ -690,7 +688,7 @@ select {
 }
 
 .newsletter-form input {
-  width: 393px;
+  max-width: 393px;
   height: 52px;
   border-radius: 8px;
   background: rgba(19, 19, 24, 0.05);
@@ -740,6 +738,49 @@ select {
   font-size: 25px;
   font-weight: 800;
   line-height: normal;
+}
+
+/* feature section style here */
+
+.feature-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.feature-card{
+  width: 230px;
+  height: 220px;
+  padding: 21px 43px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 0px 10px 1px rgba(121, 121, 121, 0.25);
+}
+.feature-card > img {
+  width: 100px;
+  height: 100px;
+}
+
+.upper-para {
+  color: #f00;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 1.15px;
+}
+
+.lower-para {
+  color: #000;
+  font-size: 23px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 1.15px;
 }
 
 /* footer section style */

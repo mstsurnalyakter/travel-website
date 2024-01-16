@@ -168,14 +168,22 @@
   .newsletter-section > .common-para {
     text-align: left;
   }
+
+  .newsletter-form > .primary-btn{
+    width: 370px;
+  }
+
+  .feature-section{
+   flex-direction: column;
+   gap: 20px;
+  }
+
 }
+
+
 /*  */
-@media screen and (min-width: 600px) and (max-width:900px) {
-  /* .common-para {
-    font-size: 14px;
-    line-height: 21px;
-    text-align: center;
-  } */
+@media screen and (min-width: 600px) and (max-width:992px) {
+
   .margin-bottom {
     margin-bottom: 24px;
   }
@@ -337,4 +345,12 @@
   .newsletter-section > .common-para {
     text-align: left;
   }
+
+  /* feature section style */
+   .feature-section{
+      flex-direction: column;
+      gap: 20px;
+  }
+
+
 }
