@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-  p {
+  .common-para {
     font-size: 14px;
     line-height: 21px;
     text-align: center;
@@ -7,7 +7,7 @@
   .margin-bottom {
     margin-bottom: 24px;
   }
-  h2{
+  h2 {
     margin-bottom: 16px;
   }
 
@@ -102,8 +102,38 @@
     grid-row: 7;
   }
 
-   /* Why Choose Us section  style*/
+  /* Why Choose Us section  style*/
 
+  /* Deals & Discounts section */
 
-   /* Deals & Discounts section */
+  #deals-card1,
+  #deals-card2,
+  #deals-card3 {
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .deals-card > .card {
+    width: 303px;
+    height: 350px;
+    padding: 25px;
+    gap: 5px;
+    padding: 30px;
+  }
+
+  .time-place {
+    gap: 10px;
+  }
+
+  .card-text p.price {
+    font-size: 16px;
+  }
+
+  .deals-card .primary-btn {
+    width: 100px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 0;
+  }
 }

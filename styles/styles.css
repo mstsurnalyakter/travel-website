@@ -33,9 +33,17 @@ h2 {
   margin-bottom: 24px;
 }
 
-p {
+/* p {
   color: #5a5a5d;
   text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+} */
+
+
+.common-para{
+  color: #5a5a5d;
   font-size: 1rem;
   font-weight: 400;
   line-height: 26px;
@@ -375,7 +383,7 @@ p {
   gap: 24px;
 }
 
-.card {
+.choose-us-content > .card {
   flex-basis: 573px;
   height: 284px;
   border-radius: 16px;
@@ -397,18 +405,18 @@ p {
   background: rgba(233, 68, 68, 0.05);
 }
 
-.card p {
+.choose-us-content .card > p {
   text-align: left;
 }
 
-.card > h3 {
+.choose-us-content .card > h3 {
   color: #131318;
   font-size: 24px;
   font-weight: 800;
   margin-bottom: 16px;
 }
 
-.card img {
+.choose-us-content .card > img {
   width: 64px;
   padding-bottom: 32px;
 }
@@ -424,32 +432,35 @@ p {
 }
 
 .deals-content {
+  max-width: 1170px;
+  width:100%;
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.deals-card {
-  width: 1170px;
-  height: 500px;
+#deals-card1,
+#deals-card3 {
+   height: 500px;
   border-radius: 16px;
   background: url("../images/santorini.png"), lightgray 50%;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-#deals-card1,
-#deals-card3 {
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: flex-end;
   padding-right: 58px;
 }
 
 #deals-card2 {
-  display: flex;
-  justify-content: flex-start;
+   height: 500px;
+  border-radius: 16px;
+  background: url("../images/satorini2.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+    display: flex;
   align-items: center;
+  justify-content: flex-start;
   padding-left: 58px;
 }
 
@@ -460,16 +471,15 @@ p {
   border: 2px solid #fff;
   background: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(2.5px);
-
   display: flex;
   flex-direction: column;
   gap: 24px;
-
   padding: 52px 77px 50px 50px;
 }
 
 .time-place {
   display: flex;
+      flex-wrap: wrap;
   align-items: center;
   gap: 24px;
 }
@@ -486,15 +496,19 @@ p {
 }
 
 .time-place p > span {
-  position: relative;
-  bottom: 15px;
+   color: #5a5a5d;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .card-text {
-  /* max-width: 452px; */
   display: flex;
   flex-direction: column;
   gap: 16px;
+}
+
+.card-text > p {
+ text-align: left;
 }
 
 .card-text .price {
