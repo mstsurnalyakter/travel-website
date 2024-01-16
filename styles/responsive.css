@@ -1,3 +1,35 @@
-@media screen and (max-width:600px) {
-    
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 14px;
+    line-height: 21px;
+     text-align: center;
+  }
+
+  .nav ul {
+    flex-wrap: wrap;
+  }
+
+  .navbar-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .nav-logo h3 {
+    font-size: 1.4rem;
+  }
+
+  .nav-link {
+    display: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .active {
+    display: block;
+  }
+  /* banner section */
+  .banner-text > h1 {
+    font-size: 22px;
+    text-align: center;
+  }
 }
