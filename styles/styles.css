@@ -138,10 +138,55 @@ h2 {
   color: #fff;
   font-size: 64px;
   font-weight: 800;
+  margin-bottom: 24px;
 }
 
 .banner-text > p {
   color: #fff;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.banner-input {
+  width: 800px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.banner-input input,
+select {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #fff;
+  padding-left: 12px;
+}
+
+select {
+  cursor: pointer;
+}
+
+.banner-input #btn {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+#search::placeholder{
+  color: white;
 }
 
 /* Popular Tours section style */
@@ -153,6 +198,7 @@ h2 {
 }
 
 .popular-tour-text {
+  max-width: 577px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -679,13 +725,7 @@ footer > hr {
   margin: 50px 0;
 }
 
-/* .footer-text{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-.footer-text section{
+.footer-text section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -697,12 +737,12 @@ footer > hr {
   width: 40px;
 }
 .footer-text section > h3 {
-  color:#131318;
+  color: #131318;
   font-size: 32px;
   font-weight: 800;
 }
 
-.links-section{
+.links-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -710,7 +750,7 @@ footer > hr {
   margin: 32px 0;
 }
 
-.links-section > a{
-  color: #5A5A5D;
+.links-section > a {
+  color: #5a5a5d;
   font-size: 25px;
 }

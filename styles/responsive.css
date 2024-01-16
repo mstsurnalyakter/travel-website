@@ -40,6 +40,18 @@
     text-align: center;
   }
 
+  .banner-input {
+    width: 287px;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .banner-input input,
+  select{
+    width: 100%;
+  }
+
+
   /* Popular Tours section style */
 
   .popular-tour-section {
@@ -147,16 +159,13 @@
 
   .perfect-place-image,
   .perfect-place-text,
-   .newsletter-text,
-   .newsletter-image{
+  .newsletter-text,
+  .newsletter-image {
     width: 100%;
   }
 
   .perfect-place-text > .common-para,
-  .newsletter-section > .common-para{
+  .newsletter-section > .common-para {
     text-align: left;
   }
-
-
-
 }
