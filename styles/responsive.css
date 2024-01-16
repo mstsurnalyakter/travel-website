@@ -2,9 +2,13 @@
   p {
     font-size: 14px;
     line-height: 21px;
-     text-align: center;
+    text-align: center;
+  }
+  .margin-bottom {
+    margin-bottom: 24px;
   }
 
+  /* nav style */
   .nav ul {
     flex-wrap: wrap;
   }
@@ -32,4 +36,11 @@
     font-size: 22px;
     text-align: center;
   }
+
+  /* Popular Tours section style */
+
+  .popular-tour-section {
+    flex-direction: column;
+}
+
 }
