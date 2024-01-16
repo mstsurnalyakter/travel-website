@@ -1,5 +1,5 @@
-/* Mulish front from google fronts */
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap");
+/* Mulish and Inter fronts from google fronts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@400;500;600;700;800;900&display=swap');
 
 /* Common Style here */
 * {
@@ -183,9 +183,9 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  gap: 10px;
 }
-#search::placeholder{
+#search::placeholder {
   color: white;
 }
 
@@ -261,11 +261,6 @@ select {
   border-radius: 16px;
   grid-column: 1 / span 6;
   grid-row: 1;
-
-  /* position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center; */
 }
 
 .maldive::before {
@@ -588,13 +583,53 @@ select {
     url("../images/mountain.png"), lightgray 50%;
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
+  position: relative;
 }
 
+.bg-image {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 25px;
+}
+
+.video-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bg-image > img {
+  max-width: 562px;
+  height: 4px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.left > span {
+  color:#f3f3f3;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  position: relative;
+  bottom: 5px;
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 10px;
+}
+
+.left > img,
+.right > img {
+  width: 24px;
+  height: 24px;
+}
 .perfect-place-image::before {
   content: "Watch Our Mountain in Bangladesh";
   color: #fff;
@@ -602,7 +637,10 @@ select {
   font-size: 24px;
   font-weight: 700;
   line-height: 36px;
-  width: 276px;
+  width: 300px;
+  position: absolute;
+  bottom: 50%;
+  left: 20%;
 }
 
 .place-ul {
