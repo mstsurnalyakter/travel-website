@@ -138,13 +138,25 @@
   }
 
   /* Perfect Place section style */
-  .perfect-place-section {
+  /* Newsletter section style */
+
+  .perfect-place-section,
+  .newsletter-section {
     flex-direction: column;
   }
 
-  .perfect-place-image {
-    width: 335px;
-    height: 200px;
-
+  .perfect-place-image,
+  .perfect-place-text,
+   .newsletter-text,
+   .newsletter-image{
+    width: 100%;
   }
+
+  .perfect-place-text > .common-para,
+  .newsletter-section > .common-para{
+    text-align: left;
+  }
+
+
+
 }

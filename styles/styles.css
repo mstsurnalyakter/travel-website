@@ -57,6 +57,7 @@ h2 {
   font-weight: 800;
   border-radius: 8px;
   background: #ff5400;
+  cursor: pointer;
 }
 
 .margin-bottom {
@@ -534,31 +535,18 @@ h2 {
   gap: 24px;
 }
 
-.perfect-place-text > ul {
-  padding-left: 23px;
-}
-
-.perfect-place-text ul > li {
-  color: #131318;
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 26px;
-  margin-bottom: 16px;
-}
-
-.perfect-place-image{
+.perfect-place-image {
   width: 610px;
   height: 424px;
   background: linear-gradient(180deg, #131318 -100%, rgba(19, 19, 24, 0) 100%),
     url("../images/mountain.png"), lightgray 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 16px;
-
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
 }
 
 .perfect-place-image::before {
@@ -569,4 +557,99 @@ h2 {
   font-weight: 700;
   line-height: 36px;
   width: 276px;
+}
+
+.place-ul {
+  padding-left: 23px;
+}
+
+.place-ul > li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+
+/* Newsletter section style */
+
+.newsletter-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.newsletter-text {
+  max-width: 532px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid #ff5400;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.newsletter-text > h2 {
+  margin-bottom: 0px;
+}
+
+.newsletter-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.newsletter-form input {
+  width: 393px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  padding-left: 20px;
+}
+
+.newsletter-form > .primary-btn {
+  width: 393px;
+  height: 52px;
+}
+
+.newsletter-image {
+  width: 610px;
+  height: 424px;
+  background: url("../images/discount.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.discounts {
+  width: 324px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-19.628deg);
+  border-radius: 16px;
+  background: #ff5400;
+  position: relative;
+  bottom: 54px;
+  right: 10px;
+}
+
+.discounts p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.discounts h2 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: normal;
 }
