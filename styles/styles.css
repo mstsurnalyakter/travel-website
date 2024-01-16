@@ -26,12 +26,20 @@ img {
   width: 100%;
 }
 
+h2 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  margin-bottom: 24px;
+}
+
 p {
   color: #5a5a5d;
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
 }
 
 .primary-btn {
@@ -76,7 +84,6 @@ p {
   gap: 10px;
   flex: 1;
   user-select: none;
-  /* font-size: 1.3rem; */
 }
 
 .nav-logo > img {
@@ -145,9 +152,7 @@ p {
 }
 
 .popular-tour-text > h2 {
-  color: #131318;
-  font-size: 2.5rem;
-  font-weight: 800;
+  margin-bottom: 0;
 }
 
 .popular-tour-text > p {
@@ -179,13 +184,6 @@ p {
   max-width: 643px;
   text-align: center;
   margin-bottom: 48px;
-}
-
-.destination-text > h2 {
-  color: #131318;
-  font-size: 40px;
-  font-weight: 800;
-  margin-bottom: 24px;
 }
 
 .destination-content {
@@ -357,4 +355,65 @@ p {
   color: #fff;
   font-size: 28px;
   font-weight: 800;
+}
+
+/* Why Choose Us section  style*/
+
+.choose-us-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.choose-us-text {
+  max-width: 643px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.choose-us-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.card {
+  flex-basis: 573px;
+  height: 284px;
+  border-radius: 16px;
+  padding: 32px;
+}
+
+.card1{
+ border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+}
+
+.card2{
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+
+.card3{
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+
+.card p {
+  text-align: left;
+}
+
+.card > h3 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.card img {
+  width: 64px;
+  padding-bottom: 32px;
 }

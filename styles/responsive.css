@@ -7,6 +7,9 @@
   .margin-bottom {
     margin-bottom: 24px;
   }
+  h2{
+    margin-bottom: 16px;
+  }
 
   /* nav style */
   .nav ul {
@@ -98,4 +101,6 @@
     grid-column: 1 / span 12;
     grid-row: 7;
   }
+
+   /* Why Choose Us section  style*/
 }
