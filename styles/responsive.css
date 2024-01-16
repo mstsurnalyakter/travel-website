@@ -41,6 +41,61 @@
 
   .popular-tour-section {
     flex-direction: column;
-}
+  }
 
+  /* Destination section style */
+
+  .destination-text {
+    margin-bottom: 16px;
+  }
+
+  .destination-text > h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+
+  .destination-content {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    gap: 16px;
+  }
+
+  .destination-content > section {
+    height: 250px;
+  }
+
+  .maldive {
+    grid-column: 1 / span 12;
+    grid-row: 1;
+  }
+
+  .indonesia {
+    grid-column: 1 / span 12;
+    grid-row: 2;
+  }
+
+  .srilanka {
+    grid-column: 1 / span 12;
+    grid-row: 3;
+  }
+
+  .north-america {
+    grid-column: 1 / span 12;
+    grid-row: 4;
+  }
+
+  .kashmir {
+    grid-column: 1 / span 12;
+    grid-row: 5;
+  }
+
+  .bangladesh {
+    grid-column: 1 / span 12;
+    grid-row: 6;
+  }
+
+  .bandarban {
+    grid-column: 1 / span 12;
+    grid-row: 7;
+  }
 }
