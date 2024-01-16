@@ -136,4 +136,15 @@
     font-weight: 700;
     padding: 10px 0;
   }
+
+  /* Perfect Place section style */
+  .perfect-place-section {
+    flex-direction: column;
+  }
+
+  .perfect-place-image {
+    width: 335px;
+    height: 200px;
+
+  }
 }

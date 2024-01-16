@@ -33,8 +33,7 @@ h2 {
   margin-bottom: 24px;
 }
 
-
-.common-para{
+.common-para {
   color: #5a5a5d;
   font-size: 1rem;
   font-weight: 400;
@@ -186,7 +185,6 @@ h2 {
   align-items: center;
   justify-content: center;
 }
-
 
 .destination-content {
   display: grid;
@@ -368,7 +366,6 @@ h2 {
   justify-content: center;
 }
 
-
 .choose-us-content {
   display: flex;
   align-items: center;
@@ -425,7 +422,7 @@ h2 {
   width: 100%;
 }
 
-.deals-section > .primary-btn{
+.deals-section > .primary-btn {
   width: 250px;
   padding: 12px;
   margin-top: 48px;
@@ -433,7 +430,7 @@ h2 {
 
 .deals-content {
   max-width: 1170px;
-  width:100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -441,7 +438,7 @@ h2 {
 
 #deals-card1,
 #deals-card3 {
-   height: 500px;
+  height: 500px;
   border-radius: 16px;
   background: url("../images/santorini.png"), lightgray 50%;
   background-repeat: no-repeat;
@@ -453,12 +450,12 @@ h2 {
 }
 
 #deals-card2 {
-   height: 500px;
+  height: 500px;
   border-radius: 16px;
   background: url("../images/satorini2.png"), lightgray 50%;
   background-repeat: no-repeat;
   background-size: cover;
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: flex-start;
   padding-left: 58px;
@@ -479,7 +476,7 @@ h2 {
 
 .time-place {
   display: flex;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   align-items: center;
   gap: 24px;
 }
@@ -496,9 +493,9 @@ h2 {
 }
 
 .time-place p > span {
-   color: #5a5a5d;
-    font-size: 17px;
-    font-weight: 400;
+  color: #5a5a5d;
+  font-size: 17px;
+  font-weight: 400;
 }
 
 .card-text {
@@ -508,7 +505,7 @@ h2 {
 }
 
 .card-text > p {
- text-align: left;
+  text-align: left;
 }
 
 .card-text .price {
@@ -519,4 +516,57 @@ h2 {
 
 .deals-card .card > button {
   padding: 14px 0;
+}
+
+/* Perfect Place section style */
+
+.perfect-place-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.perfect-place-text {
+  max-width: 532px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.perfect-place-text > ul {
+  padding-left: 23px;
+}
+
+.perfect-place-text ul > li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.perfect-place-image{
+  width: 610px;
+  height: 424px;
+  background: linear-gradient(180deg, #131318 -100%, rgba(19, 19, 24, 0) 100%),
+    url("../images/mountain.png"), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.perfect-place-image::before {
+  content: "Watch Our Mountain in Bangladesh";
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  width: 276px;
 }
